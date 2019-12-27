@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxx102.github.io</id>
     <title>好先森技术博客</title>
-    <updated>2019-12-25T16:16:34.857Z</updated>
+    <updated>2019-12-27T22:42:31.743Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxx102.github.io"/>
     <link rel="self" href="https://xxx102.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://xxx102.github.io/images/avatar.png</logo>
     <icon>https://xxx102.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 好先森技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[JavaScript--数组操作]]></title>
+        <id>https://xxx102.github.io/post/javascript-shu-zu-cao-zuo</id>
+        <link href="https://xxx102.github.io/post/javascript-shu-zu-cao-zuo">
+        </link>
+        <updated>2019-12-27T22:07:03.000Z</updated>
+        <content type="html"><![CDATA[<p>1.数组去重:<br>
+var arr=[1,2,34,5,5,43,21,2,1]<br>
+log([(...new Set(arr)]) //性能高<br>
+log(Array.from(new Set(arr)))</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea 你好]]></title>
         <id>https://xxx102.github.io/post/hello-gridea-ni-hao</id>
