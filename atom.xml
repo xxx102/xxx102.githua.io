@@ -2,14 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxx102.github.io</id>
     <title>好先森技术博客</title>
-    <updated>2019-12-27T22:42:31.743Z</updated>
+    <updated>2020-02-01T16:52:41.884Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxx102.github.io"/>
     <link rel="self" href="https://xxx102.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://xxx102.github.io/images/avatar.png</logo>
     <icon>https://xxx102.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, 好先森技术博客</rights>
+    <rights>All rights reserved 2020, 好先森技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Flutter第一天学习笔记+总结]]></title>
+        <id>https://xxx102.github.io/post/flutter-di-yi-tian-xue-xi-bi-ji-zong-jie</id>
+        <link href="https://xxx102.github.io/post/flutter-di-yi-tian-xue-xi-bi-ji-zong-jie">
+        </link>
+        <updated>2020-02-01T15:54:39.000Z</updated>
+        <content type="html"><![CDATA[<p>一.重写main.dart文件---简单的基本架构  如下图所示👇👇<br>
+<img src="https://xxx102.github.io/post-images/1580574756902.png" alt=""><br>
+知识点：<br>
+1.必须开头先引入material基本样式，逗号分号不能少<br>
+2.Widget bulid(BulidContext context){<br>
+// 这里的返回的全部都是组件<br>
+}<br>
+3.热加载的方法(使用VsCode)：保存好，鼠标移入终端 按r键<br>
+4.显示网格的方法：保存好，鼠标移入终端 按p键<br>
+5。关闭虚拟机的方法：保存好，鼠标移入终端 按q键</p>
+<p>二.Text Widget和Container Widget的使用  如下图所示👇👇<br>
+<img src="https://xxx102.github.io/post-images/1580574927772.png" alt=""><br>
+知识点：<br>
+1.样式代码前通常多要加Text，,数字都为浮点数，小数点后加一个0<br>
+2.Container相当于前端代码中的div,是一个容器<br>
+3.alignment控制容器中子元素的位置显示<br>
+4.内外边距的写法都一样，先定义一个常量EdgeInsets(不可变),fromLTRB表示顺序为左上右下<br>
+5.渐变decoration需要一个BoxDecoration的组件，需要定义一个线性渐变的常量LinearGradient</p>
+<p>吐槽：总的来说还好，多敲几遍就能接受，但是这些语法和样式的写法是真的恶心🤧🤧。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript--数组操作]]></title>
         <id>https://xxx102.github.io/post/javascript-shu-zu-cao-zuo</id>
