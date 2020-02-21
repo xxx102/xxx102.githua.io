@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xxx102.github.io</id>
     <title>好先森技术博客</title>
-    <updated>2020-02-01T16:55:30.941Z</updated>
+    <updated>2020-02-21T18:10:28.325Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xxx102.github.io"/>
     <link rel="self" href="https://xxx102.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://xxx102.github.io/images/avatar.png</logo>
     <icon>https://xxx102.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 好先森技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[学习Flutter遇到的坑以及解决方法]]></title>
+        <id>https://xxx102.github.io/post/xue-xi-flutter-yu-dao-de-keng-yi-ji-jie-jue-fang-fa</id>
+        <link href="https://xxx102.github.io/post/xue-xi-flutter-yu-dao-de-keng-yi-ji-jie-jue-fang-fa">
+        </link>
+        <updated>2020-02-21T17:58:53.000Z</updated>
+        <content type="html"><![CDATA[<p>时间：2020.2.22.2.00<br>
+一。如图所示👇👇👇<br>
+<img src="https://xxx102.github.io/post-images/1582308254019.png" alt=""><br>
+错误原因是在同一个虚拟机中已经有多个程序，内存已满。<br>
+解决方法：用Android Studio新建一个虚拟机，或者清楚虚拟机中的程序。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flutter第一天学习笔记+总结]]></title>
         <id>https://xxx102.github.io/post/flutter-di-yi-tian-xue-xi-bi-ji-zong-jie</id>
